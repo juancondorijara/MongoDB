@@ -19,9 +19,8 @@ import java.util.List;
 @RequestMapping("/v1/api/customer")
 public class CustomerRest {
 
-
     @Autowired
-    private final CustomerService customerService;
+    CustomerService customerService;
 
     @Autowired
     public CustomerRest(CustomerService customerService) {
