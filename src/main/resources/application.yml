@@ -5,4 +5,4 @@ spring:
   data:
     mongodb:
       database: developer
-      uri: mongodb+srv://juan:12345@cluster0.zdl9n.mongodb.net/?retryWrites=true&w=majority
+      uri: mongodb+srv://user:password@cluster0.zdl9n.mongodb.net/?retryWrites=true&w=majority
