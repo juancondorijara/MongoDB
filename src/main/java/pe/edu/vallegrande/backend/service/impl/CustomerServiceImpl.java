@@ -12,15 +12,12 @@ import java.util.List;
 @Service
 public class CustomerServiceImpl implements CustomerService {
 
-    @Autowired
-    Customer customer;
+    Customer customer = new Customer();
 
-    @Autowired
     CustomerRepository customerRepository;
 
     @Autowired
-    public CustomerServiceImpl(Customer customer, CustomerRepository customerRepository) {
-        this.customer = customer;
+    public CustomerServiceImpl(CustomerRepository customerRepository) {
         this.customerRepository = customerRepository;
     }
 

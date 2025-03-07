@@ -37,8 +37,8 @@ public class CustomerRest {
         return customerService.save(customer);
     }
 
-    @PutMapping("/update/{id}")
-    public Customer update(@PathVariable String id, @RequestBody Customer customer) {
+    @PutMapping("/update")
+    public Customer update(@RequestBody Customer customer) {
         return customerService.save(customer);
     }
 
